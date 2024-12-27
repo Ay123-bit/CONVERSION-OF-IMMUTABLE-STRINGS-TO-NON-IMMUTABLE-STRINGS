@@ -1,0 +1,14 @@
+//INPUT
+import java.util.*;
+public class main{
+  public static void main(String[] args){
+    String str="Ankush";
+    str.concat(" Kumar");
+     String str2 = str.concat(" Kumar");
+    System.out.println(str);//IMMUTABLE
+    System.out.println(str2);//IMMUTABLE TO NON IMMUTABLE
+  }
+}
+//OUTPUT
+Ankush
+Ankush Kumar
